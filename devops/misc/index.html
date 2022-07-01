@@ -13,7 +13,7 @@
     
     
       
-        <title>Shell - Galarzaa's Docs</title>
+        <title>Misc - Galarzaa's Docs</title>
       
     
     
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#shell" class="md-skip">
+        <a href="#devops" class="md-skip">
           Skip to content
         </a>
       
@@ -97,7 +97,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Shell
+              Misc
             
           </span>
         </div>
@@ -270,6 +270,20 @@
               
   
   
+  
+    <li class="md-nav__item">
+      <a href="../shell/" class="md-nav__link">
+        Shell
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
     
   
   
@@ -282,12 +296,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Shell
+          Misc
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Shell
+        Misc
       </a>
       
         
@@ -306,29 +320,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#style-terminal" class="md-nav__link">
-    Style Terminal
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#show-current-git-branch" class="md-nav__link">
-    Show current git branch
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#useful-aliases" class="md-nav__link">
-    Useful aliases
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#favorite-tools" class="md-nav__link">
-    Favorite Tools
+  <a href="#git-configuration-per-directory" class="md-nav__link">
+    git configuration per directory
   </a>
   
 </li>
@@ -337,20 +330,6 @@
   
 </nav>
       
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../misc/" class="md-nav__link">
-        Misc
-      </a>
     </li>
   
 
@@ -389,29 +368,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#style-terminal" class="md-nav__link">
-    Style Terminal
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#show-current-git-branch" class="md-nav__link">
-    Show current git branch
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#useful-aliases" class="md-nav__link">
-    Useful aliases
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#favorite-tools" class="md-nav__link">
-    Favorite Tools
+  <a href="#git-configuration-per-directory" class="md-nav__link">
+    git configuration per directory
   </a>
   
 </li>
@@ -428,50 +386,28 @@
             <article class="md-content__inner md-typeset">
               
                 
-  <a href="https://github.com/Galarzaa90/docs/edit/master/docs/devops/shell.md" title="Edit this page" class="md-content__button md-icon">
+  <a href="https://github.com/Galarzaa90/docs/edit/master/docs/devops/misc.md" title="Edit this page" class="md-content__button md-icon">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
   </a>
 
 
 
-<h1 id="shell">Shell</h1>
-<h2 id="style-terminal">Style Terminal</h2>
-<p>Colors the command line to make the start of one command easier to find.</p>
-<p>Add this to <code>.bashrc</code>:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nb">export</span> <span class="nv">PS1</span><span class="o">=</span><span class="s2">&quot;[\[</span><span class="k">$(</span>tput sgr0<span class="k">)</span><span class="s2">\]\[\033[38;5;9m\]\T\[</span><span class="k">$(</span>tput sgr0<span class="k">)</span><span class="s2">\]\[\033[38;5;15m\&gt;</span>
+<h1 id="devops">DevOps</h1>
+<h2 id="git-configuration-per-directory">git configuration per directory</h2>
+<p>If you are handling multiple git repositories in the same machine, but you require separate credentials (e.g personal, work), you can define settings that are applied only to repositories in a subdirectory.</p>
+<p>In <code>.gitconfig</code>, add the <code>[includeIf]</code> block as shown below:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>[user]
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    name = Galarzaa
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    email = allan@personal.com
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>[includeIf &quot;gitdir:~/Galarza/git/work/&quot;]
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>  path = .gitconfig-work
 </code></pre></div>
-<p>Make sure that this line is uncommented:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nv">force_color_prompt</span><span class="o">=</span>yes
+<p>Create a new file, with the same name as in the path specified above:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>[user]
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>    email = allan@company.com
 </code></pre></div>
-<h2 id="show-current-git-branch">Show current git branch</h2>
-<p>Add this to <code>.bashrc</code>:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>git_branch<span class="o">()</span> <span class="o">{</span>
-<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>  git branch <span class="m">2</span>&gt; /dev/null <span class="p">|</span> sed -e <span class="s1">&#39;/^[^*]/d&#39;</span> -e <span class="s1">&#39;s/* \(.*\)/(\1)/&#39;</span>
-<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="o">}</span>
-<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>
-<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="nb">export</span> <span class="nv">PS1</span><span class="o">=</span><span class="nv">$PS1</span><span class="s2">&quot;\$(git_branch)&quot;</span>
-</code></pre></div>
-<h2 id="useful-aliases">Useful aliases</h2>
-<p>Activate the <a href="https://docs.python.org/3/library/venv.html">venv</a> in the current directory.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="nb">alias</span> <span class="nv">activenv</span><span class="o">=</span><span class="s2">&quot;source venv/bin/activate&quot;</span>
-</code></pre></div>
-<h2 id="favorite-tools">Favorite Tools</h2>
-<table>
-<thead>
-<tr>
-<th>Tool</th>
-<th>Description</th>
-<th>Installation</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://github.com/sharkdp/bat">bat</a></td>
-<td>A <code>cat</code> clone with syntax highlighting and Git integration.</td>
-<td><code>apt install</code></td>
-</tr>
-</tbody>
-</table>
+<p>Now, whenever you create a commit in a repository inside the specified folder, your work email will be used (unless it has been overriden for the specific repository).</p>
 
   <hr>
 <div class="md-source-file">
@@ -498,7 +434,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../.." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home" rel="prev">
+        <a href="../shell/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Shell" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -507,26 +443,11 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Home
+              Shell
             </div>
           </div>
         </a>
       
-      
-        
-        <a href="../misc/" class="md-footer__link md-footer__link--next" aria-label="Next: Misc" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              Misc
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
-          </div>
-        </a>
       
     </nav>
   
