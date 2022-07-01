@@ -34,4 +34,5 @@ nav:
   - Home: index.md
   - DevOps:
       - Shell: devops/shell.md
+      - Misc: devops/misc.md
 
