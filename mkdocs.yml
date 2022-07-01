@@ -1,4 +1,37 @@
-site_name: My Docs
+site_name: Galarzaa's Docs
+repo_url: https://github.com/Galarzaa90/docs
 
 theme:
   name: material
+  palette:
+  - scheme: default
+    primary: 'light blue'
+    accent: 'orange'
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+  - scheme: slate
+    primary: 'light blue'
+    accent: 'orange'
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode
+  features:
+    - navigation.tracking
+
+plugins:
+  - git-revision-date-localized
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+nav:
+  - Home: index.md
+  - DevOps:
+      - Shell: devops/shell.md
+
