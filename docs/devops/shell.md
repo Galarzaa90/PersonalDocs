@@ -8,7 +8,7 @@ Colors the command line to make the start of one command easier to find.
 Add this to `.bashrc`:
 
 ```sh
-export PS1="[\[$(tput sgr0)\]\[\033[38;5;9m\]\T\[$(tput sgr0)\]\[\033[38;5;15m\>
+export PS1="[\[$(tput sgr0)\]\[\033[38;5;9m\]\T\[$(tput sgr0)\]\[\033[38;5;15m\]] \[$(tput sgr0)\]\[\033[38;5;10m\]\u@\[$(tput sgr0)\]\[\033[38;5;34m\]\h\[$(tput sgr0)\]\[\033[38;5;15m\]:\[$(tput sgr0)\]\[\033[38;5;39m\]\w\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;13m\]\\$\[$(tput sgr0)\]"
 ```
 
 Make sure that this line is uncommented:
