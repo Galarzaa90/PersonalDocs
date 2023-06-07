@@ -34,6 +34,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Windows: windows.md
   - DevOps:
       - Shell: devops/shell.md
       - Misc: devops/misc.md
