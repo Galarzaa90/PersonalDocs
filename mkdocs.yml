@@ -20,6 +20,10 @@ theme:
     media: "(prefers-color-scheme: dark)"
   features:
     - navigation.tracking
+    - content.code.copy
+    - content.action.view
+    - navigation.footer
+    - navigation.instant
 
 plugins:
   - git-revision-date-localized
@@ -31,6 +35,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
 
 nav:
   - Home: index.md

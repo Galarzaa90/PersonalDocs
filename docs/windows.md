@@ -2,21 +2,23 @@
 ## Registry Edits
 ### Enable/disable Bing search on Start Menu
 
-Disable
-```registry
-Windows Registry Editor Version 5.00
+=== "Disable"
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Explorer]
-"DisableSearchBoxSuggestions"=dword:00000000
-```
+    ```registry
+    Windows Registry Editor Version 5.00
 
-Enable
-```registry
-Windows Registry Editor Version 5.00
+    [HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Explorer]
+    "DisableSearchBoxSuggestions"=dword:00000000
+    ```
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Explorer]
-"DisableSearchBoxSuggestions"=dword:00000001
-```
+=== "Enable"
+
+    ```registry
+    Windows Registry Editor Version 5.00
+
+    [HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Explorer]
+    "DisableSearchBoxSuggestions"=dword:00000001
+    ```
 
 ## Powershell shortcut to activate venv
 
