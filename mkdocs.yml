@@ -39,6 +39,15 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true 
 
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://galarzaa.com
+    - icon: fontawesome/brands/github
+      link: https://github.com/Galarzaa90
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/galarzaa/
+
 nav:
   - Home: index.md
   - Projects:
