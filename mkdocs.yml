@@ -30,6 +30,7 @@ plugins:
   - search
 
 markdown_extensions:
+  - admonition
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -40,6 +41,8 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Projects:
+    - PC Monitoring: projects/monitoring.md
   - Windows: windows.md
   - DevOps:
       - Shell: devops/shell.md
