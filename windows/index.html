@@ -360,8 +360,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#powershell-shortcut-to-activate-venv" class="md-nav__link">
-    Powershell shortcut to activate venv
+  <a href="#powershell-shortcut-to-activate-venv-python" class="md-nav__link">
+    Powershell shortcut to activate venv (Python)
   </a>
   
 </li>
@@ -484,8 +484,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#powershell-shortcut-to-activate-venv" class="md-nav__link">
-    Powershell shortcut to activate venv
+  <a href="#powershell-shortcut-to-activate-venv-python" class="md-nav__link">
+    Powershell shortcut to activate venv (Python)
   </a>
   
 </li>
@@ -537,12 +537,12 @@
 </div>
 </div>
 </div>
-<h2 id="powershell-shortcut-to-activate-venv">Powershell shortcut to activate venv</h2>
+<h2 id="powershell-shortcut-to-activate-venv-python">Powershell shortcut to activate venv (Python)</h2>
 <p>Create an alias called <code>activenv</code> that runs the activate script relative to the current location:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nb">New-Alias</span> <span class="n">-Name</span> <span class="n">activenv</span> <span class="n">-Value</span> <span class="n">venv</span><span class="p">/</span><span class="n">scripts</span><span class="p">/</span><span class="n">activate</span><span class="p">.</span><span class="n">ps1</span>
 </code></pre></div>
 <p>Export the alias to a script.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="nb">Export-Alias</span> <span class="n">-Name</span> <span class="n">ve</span> <span class="n">-Path</span> <span class="s2">&quot;activenv.ps1&quot;</span> <span class="o">-As</span> <span class="n">Script</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="nb">Export-Alias</span> <span class="n">-Name</span> <span class="n">activenv</span> <span class="n">-Path</span> <span class="s2">&quot;activenv.ps1&quot;</span> <span class="o">-As</span> <span class="n">Script</span>
 </code></pre></div>
 <p>Add script to startup:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="nb">Add-Content</span> <span class="n">-Path</span> <span class="nv">$Profile</span> <span class="n">-Value</span> <span class="p">(</span><span class="nb">Get-Content</span> <span class="n">activenv</span><span class="p">.</span><span class="n">ps1</span><span class="p">)</span>
@@ -553,7 +553,7 @@
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 7, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 26, 2023</span>
       
     
   </small>
