@@ -20,7 +20,7 @@
     "DisableSearchBoxSuggestions"=dword:00000001
     ```
 
-## Powershell shortcut to activate venv
+## Powershell shortcut to activate venv (Python)
 
 Create an alias called `activenv` that runs the activate script relative to the current location:
 
@@ -31,7 +31,7 @@ New-Alias -Name activenv -Value venv/scripts/activate.ps1
 Export the alias to a script.
 
 ```powershell
-Export-Alias -Name ve -Path "activenv.ps1" -As Script
+Export-Alias -Name activenv -Path "activenv.ps1" -As Script
 ```
 
 Add script to startup:
