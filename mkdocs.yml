@@ -50,6 +50,7 @@ extra:
 
 nav:
   - Home: index.md
+  - Uses: uses.md
   - Projects:
     - PC Monitoring: projects/monitoring.md
   - Windows: windows.md
