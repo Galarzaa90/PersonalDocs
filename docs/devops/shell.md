@@ -8,7 +8,7 @@ Colors the command line to make the start of one command easier to find.
 Add this to `.bashrc`:
 
 ```sh
-export PS1="[\[$(tput sgr0)\]\[\033[38;5;9m\]\T\[$(tput sgr0)\]\[\033[38;5;15m\]] \[$(tput sgr0)\]\[\033[38;5;10m\]\u@\[$(tput sgr0)\]\[\033[38;5;34m\]\h\[$(tput sgr0)\]\[\033[38;5;15m\]:\[$(tput sgr0)\]\[\033[38;5;39m\]\w\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;13m\]\\$\[$(tput sgr0)\]"
+export PS1="[\[$(tput sgr0)\]\[\033[38;5;9m\]\t\[$(tput sgr0)\]\[\033[38;5;15m\]] \[$(tput sgr0)\]\[\033[38;5;10m\]\u@\[$(tput sgr0)\]\[\033[38;5;34m\]\h\[$(tput sgr0)\]\[\033[38;5;15m\]:\[$(tput sgr0)\]\[\033[38;5;39m\]\w\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;13m\]\\$\[$(tput sgr0)\]"
 ```
 
 Make sure that this line is uncommented:
@@ -16,6 +16,10 @@ Make sure that this line is uncommented:
 ```sh
 force_color_prompt=yes
 ```
+
+!!! example "Preview"
+
+    ![Preview](../assets/images/terminal-style.png)
 
 ## Show current git branch
 Add this to `.bashrc`:
@@ -27,6 +31,12 @@ git_branch() {
 
 export PS1=$PS1"\$(git_branch)"
 ```
+
+!!! example "Preview"
+
+    ![Preview](../assets/images/terminal-style-git.png)
+    
+    *Any other customizations will be preserved.*
 
 ## Useful aliases
 
