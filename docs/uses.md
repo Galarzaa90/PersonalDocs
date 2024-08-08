@@ -4,6 +4,7 @@
 ### Personal Computer
 - **Motherboard**: MSI B450 Tomahawk Max II
 - **CPU**: Ryzen 5 5600X
+- **GPU**: MSI GeForce RTX 4070 12GB DDR5
 - **RAM**: 2x16 GB DDR4 3200 MHz
 - **Storage**:
     -  ADATA Legend 960 NVMe 1TB SSD
