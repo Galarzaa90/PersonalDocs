@@ -76,6 +76,7 @@ nav:
   - Home: 
     - Home: index.md
     - Uses: uses.md
+    - Badges: badges.md
   - Development:
     - Windows: dev/windows.md
     - Terminal: dev/terminal.md
