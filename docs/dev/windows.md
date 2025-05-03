@@ -25,7 +25,7 @@
 Create an alias called `activenv` that runs the activate script relative to the current location:
 
 ```powershell
-New-Alias -Name activenv -Value venv/scripts/activate.ps1
+New-Alias -Name activenv -Value .venv/scripts/activate.ps1
 ```
 
 Export the alias to a script.

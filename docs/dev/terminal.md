@@ -1,4 +1,4 @@
-# Shell
+# Terminal
 ## Style Terminal
 
 Colors the command line to make the start of one command easier to find.
@@ -48,7 +48,7 @@ alias activenv="source venv/bin/activate"
 
 ## Favorite Tools
 
-| Tool  |  Description | Installation
-|---|---|---|
-| [bat](https://github.com/sharkdp/bat)   | A `cat` clone with syntax highlighting and Git integration. | `apt install`|
+| Tool                                  | Description                                                 | Installation  |
+| ------------------------------------- | ----------------------------------------------------------- | ------------- |
+| [bat](https://github.com/sharkdp/bat) | A `cat` clone with syntax highlighting and Git integration. | `apt install` |
 

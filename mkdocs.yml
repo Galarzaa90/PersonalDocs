@@ -8,20 +8,24 @@ edit_uri: edit/main/docs/
 theme:
   name: material
   palette:
-  - scheme: default
+  - media: "(prefers-color-scheme)"
+    toggle:
+      icon: material/brightness-auto
+      name: Switch to light mode
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
     primary: 'indigo'
     accent: 'orange'
     toggle:
       icon: material/weather-night
       name: Switch to dark mode
-    media: "(prefers-color-scheme: light)"
-  - scheme: slate
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
     primary: 'indigo'
     accent: 'orange'
     toggle:
       icon: material/weather-sunny
       name: Switch to light mode
-    media: "(prefers-color-scheme: dark)"
   features:
     - navigation.tracking
     - content.code.copy
@@ -29,6 +33,7 @@ theme:
     - content.action.edit
     - navigation.footer
     - navigation.instant
+    - navigation.tabs
     - search.highlight
     - search.suggest
     - search.share
@@ -68,12 +73,15 @@ extra:
       link: https://www.linkedin.com/in/galarzaa/
 
 nav:
-  - Home: index.md
-  - Uses: uses.md
+  - Home: 
+    - Home: index.md
+    - Uses: uses.md
+  - Development:
+    - Windows: dev/windows.md
+    - Terminal: dev/terminal.md
+    - Misc: dev/misc.md
   - Projects:
     - PC Monitoring: projects/monitoring.md
-  - Windows: windows.md
-  - DevOps:
-      - Shell: devops/shell.md
-      - Misc: devops/misc.md
+  
+      
 
