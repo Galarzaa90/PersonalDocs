@@ -1,5 +1,5 @@
 site_name: Galarzaa's Docs
-site_description: Personal collection of snippets and miscellanous documentation.
+site_description: Personal collection of snippets and miscellaneous documentation.
 site_author: Allan Galarza
 repo_name: Galarzaa90/PersonalDocs
 repo_url: https://github.com/Galarzaa90/PersonalDocs
@@ -8,24 +8,29 @@ edit_uri: edit/main/docs/
 theme:
   name: material
   palette:
-  - media: "(prefers-color-scheme)"
-    toggle:
-      icon: material/brightness-auto
-      name: Switch to light mode
-  - media: "(prefers-color-scheme: light)"
-    scheme: default
-    primary: 'indigo'
-    accent: 'orange'
-    toggle:
-      icon: material/weather-night
-      name: Switch to dark mode
-  - media: "(prefers-color-scheme: dark)"
-    scheme: slate
-    primary: 'indigo'
-    accent: 'orange'
-    toggle:
-      icon: material/weather-sunny
-      name: Switch to light mode
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
   features:
     - navigation.tracking
     - content.code.copy
@@ -51,6 +56,10 @@ plugins:
 
 
 markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - toc:
       permalink: true
   - admonition
@@ -76,6 +85,7 @@ nav:
   - Home: 
     - Home: index.md
     - Uses: uses.md
+    - System Setup: setup.md
     - Badges: badges.md
   - Development:
     - Windows: dev/windows.md
