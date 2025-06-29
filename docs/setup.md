@@ -11,6 +11,7 @@ A checklist of the apps I install or configurations I change when I set up a new
 - :fontawesome-brands-microsoft: [Microsoft PowerToys](https://learn.microsoft.com/en-us/windows/powertoys/install)
 - :fontawesome-brands-whatsapp: [WhatsApp](https://apps.microsoft.com/detail/9nksqgp7f2nh)
 - :fontawesome-solid-magnifying-glass: [Everything](https://www.voidtools.com/)
+- :simple-notion: [Notion](https://www.notion.com/desktop)
 
 ### Development
 
@@ -22,12 +23,16 @@ A checklist of the apps I install or configurations I change when I set up a new
 - :fontawesome-brands-python: [Python](https://www.python.org/downloads/)
 - :fontawesome-brands-docker: [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - :fontawesome-brands-node-js: [Node.js](https://nodejs.org/en/download)
+- :simple-postgresql: [pgAdmin](https://www.pgadmin.org/download/)
 
 ### Entertainment
 
 - :fontawesome-brands-steam: [Steam](https://store.steampowered.com/about/)
 - :simple-nvidia: [NVIDIA App](https://www.nvidia.com/en-us/software/nvidia-app/)
 - :fontawesome-brands-discord: [Discord](https://discord.com/api/download/canary?platform=win)
+- :simple-logitechg: [Logitech G HUB](https://www.logitechg.com/es-mx/innovation/g-hub.html)
+- :simple-plex: [Plex Server](https://www.plex.tv/media-server-downloads/?cat=computer&plat=windows#plex-media-server)
+- :material-vlc: [VLC](https://www.videolan.org/vlc/)
 
 ## Other
 - :fontawesome-brands-github: Run [Win11Debloat](https://github.com/Raphire/Win11Debloat)
