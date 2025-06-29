@@ -24,6 +24,8 @@ A checklist of the apps I install or configurations I change when I set up a new
 - :fontawesome-brands-docker: [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - :fontawesome-brands-node-js: [Node.js](https://nodejs.org/en/download)
 - :simple-postgresql: [pgAdmin](https://www.pgadmin.org/download/)
+- :simple-sqlite: [DB Browser for SQLite](https://sqlitebrowser.org/)
+- :simple-mongodb: [MongoDB Compass](https://www.mongodb.com/try/download/compass)
 
 ### Entertainment
 
