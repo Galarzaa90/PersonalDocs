@@ -36,6 +36,7 @@ A checklist of the apps I install or configurations I change when I set up a new
 - :simple-logitechg: [Logitech G HUB](https://www.logitechg.com/es-mx/innovation/g-hub.html)
 - :simple-plex: [Plex Server](https://www.plex.tv/media-server-downloads/?cat=computer&plat=windows#plex-media-server)
 - :material-vlc: [VLC](https://www.videolan.org/vlc/)
+- :fontawesome-brands-spotify: [Spotify](https://apps.microsoft.com/detail/9ncbcszsjrsb)
 
 ## Other
 - :fontawesome-brands-github: Run [Win11Debloat](https://github.com/Raphire/Win11Debloat)
