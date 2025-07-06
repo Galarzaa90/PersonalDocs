@@ -7,6 +7,7 @@ A checklist of the apps I install or configurations I change when I set up a new
 ### General Use
 
 - :fontawesome-brands-chrome: [Google Chrome](https://www.google.com/chrome)
+- :material-microsoft:  [Microsoft 365](https://m365.cloud.microsoft/)
 - :simple-openai: [ChatGPT](https://apps.microsoft.com/detail/9nt1r1c2hh7j)
 - :fontawesome-brands-microsoft: [Microsoft PowerToys](https://learn.microsoft.com/en-us/windows/powertoys/install)
 - :fontawesome-brands-whatsapp: [WhatsApp](https://apps.microsoft.com/detail/9nksqgp7f2nh)
@@ -27,6 +28,7 @@ A checklist of the apps I install or configurations I change when I set up a new
 - :simple-postgresql: [pgAdmin](https://www.pgadmin.org/download/)
 - :simple-sqlite: [DB Browser for SQLite](https://sqlitebrowser.org/)
 - :simple-mongodb: [MongoDB Compass](https://www.mongodb.com/try/download/compass)
+- :simple-redis: [Redis Insight](https://github.com/RedisInsight/RedisInsight)
 
 ### Entertainment
 
