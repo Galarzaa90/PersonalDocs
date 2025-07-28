@@ -11,7 +11,7 @@ A collection of sites featuring utilities or documentations I use and want to st
     Generate Python type definitions from a JSON sample (both Pydantic BaseModel and TypedDict are supported).
 
     [
-      ![Website](https://img.shields.io/website?url=https%3A%2F%2Fjson2pyi.pages.dev%2F&up_message=online&down_message=offline&style=flat-square)
+      ![Website](https://img.shields.io/website?url=https://json2pyi.pages.dev&up_message=online&down_message=offline&style=flat-square)
     ](https://json2pyi.pages.dev/)
 
     
@@ -28,7 +28,7 @@ A collection of sites featuring utilities or documentations I use and want to st
     An online tree-like utility for generating ASCII folder structure diagrams. Written in TypeScript and React.
 
     [
-      ![Website](https://img.shields.io/website?url=https%3A%2F%2Ftree.nathanfriend.com%2F&up_message=online&down_message=offline&style=flat-square)
+      ![Website](https://img.shields.io/website?url=https://tree.nathanfriend.com&up_message=online&down_message=offline&style=flat-square)
     ](https://tree.nathanfriend.com/)
 
     
@@ -46,7 +46,7 @@ A collection of sites featuring utilities or documentations I use and want to st
     The quick and simple editor for cron schedule expressions by Cronitor.
 
     [
-      ![Website](https://img.shields.io/website?url=https%3A%2F%2Fcrontab.guru%2F&up_message=online&down_message=offline&style=flat-square)
+      ![Website](https://img.shields.io/website?url=https://crontab.guru&up_message=online&down_message=offline&style=flat-square)
     ](https://crontab.guru/)
 
 
@@ -57,7 +57,7 @@ A collection of sites featuring utilities or documentations I use and want to st
     Get the timestamp from a Discord snowflake ❄
 
     [
-      ![Website](https://img.shields.io/website?url=https%3A%2F%2Fsnowsta.mp%2F&up_message=online&down_message=offline&style=flat-square)
+      ![Website](https://img.shields.io/website?url=https://snowsta.mp&up_message=online&down_message=offline&style=flat-square)
     ](https://snowsta.mp/)
 
     [
@@ -65,6 +65,25 @@ A collection of sites featuring utilities or documentations I use and want to st
       ![GitHub last commit](https://img.shields.io/github/last-commit/vegeta897/snow-stamp?style=flat-square)
       ![GitHub top language](https://img.shields.io/github/languages/top/vegeta897/snow-stamp)
     ](https://github.com/vegeta897/snow-stamp)
+
+
+
+-   __Discord Timestamp Generator__
+
+    ---
+
+    Get the timestamp from a Discord snowflake ❄
+
+    [
+      ![Website](https://img.shields.io/website?url=https://r.3v.fi/discord-timestamps&up_message=online&down_message=offline&style=flat-square)
+    ](https://r.3v.fi/discord-timestamps/)
+
+    [
+      ![GitHub Repo stars](https://img.shields.io/github/stars/3ventic/discord-timestamps?style=flat-square&logo=github)
+      ![GitHub last commit](https://img.shields.io/github/last-commit/3ventic/discord-timestamps?style=flat-square)
+      ![GitHub top language](https://img.shields.io/github/languages/top/3ventic/discord-timestamps)
+    ](https://github.com/3ventic/discord-timestamps)
+
 
 
 
