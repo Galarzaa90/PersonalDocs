@@ -71,6 +71,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true 
+  - md_in_html
 
 extra:
   social:
@@ -88,6 +89,7 @@ nav:
     - System Setup: setup.md
     - Badges: badges.md
   - Development:
+    - Bookmarks: dev/bookmarks.md
     - Windows: dev/windows.md
     - Terminal: dev/terminal.md
     - Misc: dev/misc.md

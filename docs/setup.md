@@ -8,11 +8,13 @@ A checklist of the apps I install or configurations I change when I set up a new
 
 - :fontawesome-brands-chrome: [Google Chrome](https://www.google.com/chrome)
 - :material-microsoft:  [Microsoft 365](https://m365.cloud.microsoft/)
+- :fontawesome-solid-file-pdf:  [Foxit PDF Reader](https://www.foxit.com/downloads/#foxit-pdf-reader)
 - :simple-openai: [ChatGPT](https://apps.microsoft.com/detail/9nt1r1c2hh7j)
 - :fontawesome-brands-microsoft: [Microsoft PowerToys](https://learn.microsoft.com/en-us/windows/powertoys/install)
 - :fontawesome-brands-whatsapp: [WhatsApp](https://apps.microsoft.com/detail/9nksqgp7f2nh)
 - :fontawesome-solid-magnifying-glass: [Everything](https://www.voidtools.com/)
 - :simple-notion: [Notion](https://www.notion.com/desktop)
+- :fontawesome-solid-paintbrush: [Paint.net](https://www.getpaint.net/download.html)
 
 ### Development
 
@@ -29,11 +31,13 @@ A checklist of the apps I install or configurations I change when I set up a new
 - :simple-sqlite: [DB Browser for SQLite](https://sqlitebrowser.org/)
 - :simple-mongodb: [MongoDB Compass](https://www.mongodb.com/try/download/compass)
 - :simple-redis: [Redis Insight](https://github.com/RedisInsight/RedisInsight)
+- :simple-postman: [Postman](https://www.postman.com/downloads/)
 
 ### Entertainment
 
-- :fontawesome-brands-steam: [Steam](https://store.steampowered.com/about/)
 - :simple-nvidia: [NVIDIA App](https://www.nvidia.com/en-us/software/nvidia-app/)
+- :fontawesome-brands-steam: [Steam](https://store.steampowered.com/about/)
+- :simple-epicgames: [Epic Games](https://store.epicgames.com/)
 - :fontawesome-brands-discord: [Discord](https://discord.com/api/download/canary?platform=win)
 - :simple-logitechg: [Logitech G HUB](https://www.logitechg.com/es-mx/innovation/g-hub.html)
 - :simple-plex: [Plex Server](https://www.plex.tv/media-server-downloads/?cat=computer&plat=windows#plex-media-server)
@@ -42,4 +46,5 @@ A checklist of the apps I install or configurations I change when I set up a new
 
 ## Other
 - :fontawesome-brands-github: Run [Win11Debloat](https://github.com/Raphire/Win11Debloat)
+- :fontawesome-brands-github: Install [FireCode](https://github.com/tonsky/FiraCode) fonts
 - [Set up `activenv` shortcut](./dev/windows.md#powershell-shortcut-to-activate-venv-python)
