@@ -68,7 +68,7 @@ plugins:
         as_creation: date
       categories:
         - categories
-        - tags 
+        - tags
 
 
 markdown_extensions:
@@ -108,7 +108,9 @@ nav:
     - Home: blog/index.md
   - Development:
     - Bookmarks: dev/bookmarks.md
-    - IDE Extensions: dev/ide_extensions.md
+    - Editor Extensions & Plugins: dev/extensions.md
+    - Python:
+      - Ruff: dev/python/ruff.md
     - Windows: dev/windows.md
     - Terminal: dev/terminal.md
     - Misc: dev/misc.md
