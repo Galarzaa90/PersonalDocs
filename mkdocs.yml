@@ -2,6 +2,7 @@ site_name: Galarzaa's Docs
 site_description: Personal collection of snippets and miscellaneous documentation.
 site_author: Allan Galarza
 site_url: https://docs.galarzaa.com
+
 repo_name: Galarzaa90/PersonalDocs
 repo_url: https://github.com/Galarzaa90/PersonalDocs
 edit_uri: edit/main/docs/
@@ -37,6 +38,7 @@ theme:
     - content.code.copy
     - content.action.view
     - content.action.edit
+    - content.tooltips
     - navigation.footer
     - navigation.instant
     - navigation.tabs
@@ -106,6 +108,7 @@ nav:
     - Home: blog/index.md
   - Development:
     - Bookmarks: dev/bookmarks.md
+    - IDE Extensions: dev/ide_extensions.md
     - Windows: dev/windows.md
     - Terminal: dev/terminal.md
     - Misc: dev/misc.md
