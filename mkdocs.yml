@@ -57,6 +57,8 @@ plugins:
       repository: Galarzaa90/PersonalDocs
       branch: main
   - search
+  - social:
+      enabled: !ENV [CI, false]
 
 
 markdown_extensions:
