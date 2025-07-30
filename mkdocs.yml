@@ -47,8 +47,12 @@ theme:
     repo: fontawesome/brands/github
 
 plugins:
+  - blog
+  - meta
   - git-revision-date-localized:
       enable_creation_date: true
+      exclude:
+        - blog/*
   - git-committers:
       repository: Galarzaa90/PersonalDocs
       branch: main
@@ -88,6 +92,8 @@ nav:
     - Uses: uses.md
     - System Setup: setup.md
     - Badges: badges.md
+  - Blog:
+    - Home: blog/index.md
   - Development:
     - Bookmarks: dev/bookmarks.md
     - Windows: dev/windows.md

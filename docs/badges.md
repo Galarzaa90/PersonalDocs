@@ -70,3 +70,9 @@ SonarCloud
 [![Docker Image Version (latest semver)](https://img.shields.io/docker/v/galarzaa90/tibiakt?sort=semver)](https://hub.docker.com/repository/docker/galarzaa90/tibiakt)
 [![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/galarzaa90/tibiakt?sort=semver)](https://hub.docker.com/repository/docker/galarzaa90/tibiakt)
 [![Docker Pulls](https://img.shields.io/docker/pulls/galarzaa90/tibiakt)](https://hub.docker.com/repository/docker/galarzaa90/tibiakt)
+
+
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Galarzaa90/tibia.py,Galarzaa90/tibiakt,Galarzaa90/tibiawiki-sql&type=Date)](https://www.star-history.com/#Galarzaa90/tibia.py&Galarzaa90/tibiakt&Galarzaa90/tibiawiki-sql&Date)
