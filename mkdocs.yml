@@ -1,6 +1,7 @@
 site_name: Galarzaa's Docs
 site_description: Personal collection of snippets and miscellaneous documentation.
 site_author: Allan Galarza
+site_url: https://docs.galarzaa.com
 repo_name: Galarzaa90/PersonalDocs
 repo_url: https://github.com/Galarzaa90/PersonalDocs
 edit_uri: edit/main/docs/
