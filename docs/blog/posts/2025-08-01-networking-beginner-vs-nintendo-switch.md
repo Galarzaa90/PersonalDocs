@@ -8,7 +8,7 @@ tags:
   - Networking
 ---
 # Networking Beginner vs Nintendo Switch
-Yesterday, I had to change my home WiFi and update all the devices in the network to point to the network settings. It was a pretty fun experience.
+Yesterday, I had to change my home WiFi and update all the devices at home to point to the new network. It was a pretty fun experience.
 
 <!-- more -->
 
