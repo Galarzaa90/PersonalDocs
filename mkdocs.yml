@@ -88,6 +88,7 @@ markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
+  - pymdownx.keys
   - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.tabbed:
@@ -102,6 +103,8 @@ extra:
       link: https://github.com/Galarzaa90
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/galarzaa/
+    - icon: fontawesome/brands/threads
+      link: https://threads.com/@galarzaa90
 
 nav:
   - Home: 
