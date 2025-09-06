@@ -1,79 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://docs.galarzaa.com/index.html</loc>
-         <lastmod>2025-08-02</lastmod>
+         <loc>https://docs.galarzaa.com/</loc>
+         <lastmod>2025-09-06</lastmod>
     </url>
     <url>
-         <loc>https://docs.galarzaa.com/badges.html</loc>
-         <lastmod>2025-08-02</lastmod>
+         <loc>https://docs.galarzaa.com/badges/</loc>
+         <lastmod>2025-09-06</lastmod>
     </url>
     <url>
-         <loc>https://docs.galarzaa.com/setup.html</loc>
-         <lastmod>2025-08-02</lastmod>
+         <loc>https://docs.galarzaa.com/setup/</loc>
+         <lastmod>2025-09-06</lastmod>
     </url>
     <url>
-         <loc>https://docs.galarzaa.com/uses.html</loc>
-         <lastmod>2025-08-02</lastmod>
+         <loc>https://docs.galarzaa.com/uses/</loc>
+         <lastmod>2025-09-06</lastmod>
     </url>
     <url>
-         <loc>https://docs.galarzaa.com/blog/index.html</loc>
-         <lastmod>2025-08-02</lastmod>
+         <loc>https://docs.galarzaa.com/blog/</loc>
+         <lastmod>2025-09-06</lastmod>
     </url>
     <url>
-         <loc>https://docs.galarzaa.com/blog/2025/07/29/blog-init.html</loc>
-         <lastmod>2025-08-02</lastmod>
+         <loc>https://docs.galarzaa.com/blog/2025/07/29/blog-init/</loc>
+         <lastmod>2025-09-06</lastmod>
     </url>
     <url>
-         <loc>https://docs.galarzaa.com/blog/2025/08/01/networking-beginner-vs-nintendo-switch.html</loc>
-         <lastmod>2025-08-02</lastmod>
+         <loc>https://docs.galarzaa.com/blog/2025/08/01/networking-beginner-vs-nintendo-switch/</loc>
+         <lastmod>2025-09-06</lastmod>
     </url>
     <url>
-         <loc>https://docs.galarzaa.com/dev/index.html</loc>
-         <lastmod>2025-08-02</lastmod>
+         <loc>https://docs.galarzaa.com/blog/2025/09/06/my-daily-power-toys/</loc>
+         <lastmod>2025-09-06</lastmod>
     </url>
     <url>
-         <loc>https://docs.galarzaa.com/dev/bookmarks.html</loc>
-         <lastmod>2025-08-02</lastmod>
+         <loc>https://docs.galarzaa.com/dev/</loc>
+         <lastmod>2025-09-06</lastmod>
     </url>
     <url>
-         <loc>https://docs.galarzaa.com/dev/extensions.html</loc>
-         <lastmod>2025-08-02</lastmod>
+         <loc>https://docs.galarzaa.com/dev/bookmarks/</loc>
+         <lastmod>2025-09-06</lastmod>
     </url>
     <url>
-         <loc>https://docs.galarzaa.com/dev/misc.html</loc>
-         <lastmod>2025-08-02</lastmod>
+         <loc>https://docs.galarzaa.com/dev/extensions/</loc>
+         <lastmod>2025-09-06</lastmod>
     </url>
     <url>
-         <loc>https://docs.galarzaa.com/dev/terminal.html</loc>
-         <lastmod>2025-08-02</lastmod>
+         <loc>https://docs.galarzaa.com/dev/misc/</loc>
+         <lastmod>2025-09-06</lastmod>
     </url>
     <url>
-         <loc>https://docs.galarzaa.com/dev/windows.html</loc>
-         <lastmod>2025-08-02</lastmod>
+         <loc>https://docs.galarzaa.com/dev/terminal/</loc>
+         <lastmod>2025-09-06</lastmod>
     </url>
     <url>
-         <loc>https://docs.galarzaa.com/dev/python/index.html</loc>
-         <lastmod>2025-08-02</lastmod>
+         <loc>https://docs.galarzaa.com/dev/windows/</loc>
+         <lastmod>2025-09-06</lastmod>
     </url>
     <url>
-         <loc>https://docs.galarzaa.com/dev/python/ruff.html</loc>
-         <lastmod>2025-08-02</lastmod>
+         <loc>https://docs.galarzaa.com/dev/python/</loc>
+         <lastmod>2025-09-06</lastmod>
     </url>
     <url>
-         <loc>https://docs.galarzaa.com/projects/monitoring.html</loc>
-         <lastmod>2025-08-02</lastmod>
+         <loc>https://docs.galarzaa.com/dev/python/ruff/</loc>
+         <lastmod>2025-09-06</lastmod>
     </url>
     <url>
-         <loc>https://docs.galarzaa.com/blog/archive/2025.html</loc>
-         <lastmod>2025-08-02</lastmod>
+         <loc>https://docs.galarzaa.com/projects/monitoring/</loc>
+         <lastmod>2025-09-06</lastmod>
     </url>
     <url>
-         <loc>https://docs.galarzaa.com/blog/category/technology.html</loc>
-         <lastmod>2025-08-02</lastmod>
+         <loc>https://docs.galarzaa.com/blog/archive/2025/</loc>
+         <lastmod>2025-09-06</lastmod>
     </url>
     <url>
-         <loc>https://docs.galarzaa.com/blog/category/meta.html</loc>
-         <lastmod>2025-08-02</lastmod>
+         <loc>https://docs.galarzaa.com/blog/category/technology/</loc>
+         <lastmod>2025-09-06</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.galarzaa.com/blog/category/meta/</loc>
+         <lastmod>2025-09-06</lastmod>
     </url>
 </urlset>
