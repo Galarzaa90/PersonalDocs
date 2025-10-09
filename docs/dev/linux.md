@@ -4,7 +4,6 @@
 Colors the command line to make the start of one command easier to find.
 
 
-
 Add this to `.bashrc`:
 
 ```sh
@@ -48,7 +47,7 @@ alias activenv="source venv/bin/activate"
 
 ## Favorite Tools
 
-| Tool                                  | Description                                                 | Installation  |
-| ------------------------------------- | ----------------------------------------------------------- | ------------- |
-| [bat](https://github.com/sharkdp/bat) | A `cat` clone with syntax highlighting and Git integration. | `apt install` |
-
+| Tool                                  | Description                                                 | Installation       |
+| ------------------------------------- | ----------------------------------------------------------- | ------------------ |
+| [bat](https://github.com/sharkdp/bat) | A `cat` clone with syntax highlighting and Git integration. | `apt install bat`  |
+| [ncdu](https://dev.yorhel.nl/ncdu)    | Disk usage analyzer with a text user interface.             | `apt install ncdu` |

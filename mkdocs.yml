@@ -121,7 +121,7 @@ nav:
       - Python: dev/python/index.md
       - Ruff: dev/python/ruff.md
     - Windows: dev/windows.md
-    - Terminal: dev/terminal.md
+    - Linux: dev/linux.md
     - Misc: dev/misc.md
   - Projects:
     - PC Monitoring: projects/monitoring.md
