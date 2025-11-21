@@ -51,3 +51,22 @@ alias activenv="source venv/bin/activate"
 | ------------------------------------- | ----------------------------------------------------------- | ------------------ |
 | [bat](https://github.com/sharkdp/bat) | A `cat` clone with syntax highlighting and Git integration. | `apt install bat`  |
 | [ncdu](https://dev.yorhel.nl/ncdu)    | Disk usage analyzer with a text user interface.             | `apt install ncdu` |
+
+
+## Laptop as a server
+
+Small tweaks to I did on my laptop to make it a bit more reliable:
+
+Make sure this lines are set in `/etc/systemd/logind.conf`
+
+```shell
+HandleLidSwitch=ignore
+HandleLidSwitchExternalPower=ignore
+HandleLidSwitchDocked=ignore
+```
+
+Disable suspend completely:
+
+```
+sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
+```
